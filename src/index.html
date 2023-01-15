@@ -14,16 +14,36 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <div class="mt-3">
+        <h3 class="text-dark mb-4">Change your card dimensions (in pixels)</h3>
+        <input
+          class="input-width"
+          type="text"
+          placeholder="Change card width..."
+        />
+        <input
+          class="input-height"
+          type="text"
+          placeholder="Change card heigth..."
+        />
       </div>
+      <div>
+        <button type="button" class="btn btn-primary mt-3">
+          Change your card!
+        </button>
+      </div>
+      <div class="card br-25 border-secondary mt-4">
+        <div class="card-top align-self-start ps-2 h-25">
+          ♥
+        </div>
+        <div class="card-number h-50 row align-items-center">
+          <b>3</b>
+        </div>
+        <div class="card-bot align-self-end ps-2 h-25">
+          ♥
+        </div>
+      </div>
+      <script src="./app.js" type="text/javascript"></script>
     </div>
   </body>
 </html>

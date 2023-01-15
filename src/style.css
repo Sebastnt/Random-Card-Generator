@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+
+.card {
+  background-color: white;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+}
+
+.br-25 {
+  border-radius: 12px;
+}
+
+.card-top,
+.card-bot,
+.card-number {
+  font-size: 300%;
+}
+.card-bot {
+  transform: rotateZ(180deg);
+}
+
+.red {
+  color: red;
+}
+
+.inputs {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
